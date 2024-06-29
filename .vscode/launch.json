@@ -1,0 +1,37 @@
+{
+    // 使用 IntelliSense 以得知可用的屬性。
+    // 暫留以檢視現有屬性的描述。
+    // 如需詳細資訊，請瀏覽: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+        },
+        {
+            "type": "java",
+            "name": "BuildIndex",
+            "request": "launch",
+            "mainClass": "BuildIndex",
+            "projectName": "HW5_9b692d38",
+            "args": ["/Users/joshua/javaprojet/HW5/example.txt"]
+        },
+        {
+            "type": "java",
+            "name": "Student",
+            "request": "launch",
+            "mainClass": "Student",
+            "projectName": "HW5_9b692d38"
+        },
+        {
+            "type": "java",
+            "name": "TFIDFSearch",
+            "request": "launch",
+            "mainClass": "TFIDFSearch",
+            "projectName": "HW5_9b692d38",
+            "args": ["corpus0" ,"tc2.txt"]
+        }
+    ]
+}
